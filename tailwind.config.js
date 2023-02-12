@@ -12,7 +12,8 @@ module.exports = {
       fontFamily: {
         jost: ["Jost", "sans-serif"],
         signika:["Signika", "sans-serif"],
-        poppins:["Poppins", "sans-serif"]
+        poppins:["Poppins", "sans-serif"],
+        roguescript:["Rouge Script", "sans-serif"]
         
       },
       colors:{
