@@ -21,7 +21,6 @@ function Contact()
             console.log(error.text);
         });
     };
-  
     return(
         <div
         className="bg-gradient-to-r from-[#222222] to-[#161616] min-w-full max-w-max min-h-screen max-h-max ">
@@ -51,7 +50,7 @@ function Contact()
                
             </div>
             <div className="flex flex-col gap-8">
-            <div className="mt-8 text-[#F5F5F5] font-poppins font-semibold text-[20px]">How Can I Help You?</div>
+            <div className="mt-8 text-[#F5F5F5] font-poppins font-semibold text-[20px]">Get in Touch</div>
                 <div className="flex flex-row">
                     <div className="bg-[#353535] w-[102px] h-1"></div>
                     <div className="absolute bg-[#007CED] w-10 h-1"></div>
@@ -83,3 +82,15 @@ function Contact()
     );
 }
 export default Contact;
+
+{/* <form ref={form} onSubmit={sendEmail}>
+      <label className="mt-4 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[50px] border border-[#d5d5d5] rounded-md text-white py-2 pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Full Name</label>
+      <input type="text" name="user_name" />
+      <label className="mt-4 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[50px] border border-[#d5d5d5] rounded-md text-white py-2 pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Email</label>
+      <input type="email" name="user_email" />
+      <label className="mt-4 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[50px] border border-[#d5d5d5] rounded-md text-white py-2 pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Subject</label>
+      <input type="text" name="user_subject" />
+      <label className="mt-4 mb-6 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[250px] border border-[#d5d5d5] rounded-md text-white pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Subject</label>
+      <textarea name="message" />
+     
+    </form> */}
