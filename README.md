@@ -14,10 +14,10 @@ Dynamic routing to display individual pages for each section of your portfolio.
 
 
 # Installation and Setup Instructions ⚙️
-1.Clone or download the repository<br>
-2.Navigate to the project directory and run npm install to install the dependencies<br>
-3.Run npm start to start the development server and view the website in your browser at http://localhost:3000<br>
-4.Modify the code and make it your own!
+1. Clone or download the repository<br>
+2. Navigate to the project directory and run npm install to install the dependencies<br>
+3. Run npm start to start the development server and view the website in your browser at http://localhost:3000<br>
+4. Modify the code and make it your own!
 
 
 
