@@ -16,7 +16,7 @@ const Home = () => {
               
                     <div className="flex flex-col sm:flex flex-row md:flex md:flex-row justify-center items-center gap-10 p-20 ">
                         <div className="flex justify-center items-center justify-center h-96 h-96 sm:h-96 w-96 md:h-128 md:w-128 rounded-full ">
-                            <img src="/images/Priyanka.jpeg" alt="Profile" className="w-64 h-64 border-[#444444] border-[22px] shadow-black shadow-xl hover:scale-110 transition duration-300 ease-in-out rounded-full object-cover md:w-96 md:h-96 " />
+                            <img src="/images/priyanka1.jpeg" alt="Profile" className="w-64 h-64 border-[#444444] border-[22px] shadow-black shadow-xl hover:scale-110 transition duration-300 ease-in-out rounded-full object-cover md:w-96 md:h-96 " />
                             </div>
                                                
                     <div className="p-4 sm:flex flex-col gap-4 justify-center md:flex flex-col justify-center md:gap-8 ">

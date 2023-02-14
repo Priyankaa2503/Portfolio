@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import MobNav from "./MobNav";
 import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
 import { Link } from "react-router-dom";
+import {motion} from "framer-motion"
 function Navbar() {
     const[active,setActive]=useState(false)
     const showMenu = ()=>
@@ -10,7 +11,10 @@ function Navbar() {
     }
     return (
 
-        <div className="bg-gradient-to-r from-[#222222] to-[#161616] min-w-full max-w-max">
+        <motion.div className="bg-gradient-to-r from-[#222222] to-[#161616] min-w-full max-w-max"
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}}>
            <div className="h-[100px] w-[100px] top-10 right-2.5 p-8 scale-150 md:hidden ">
                         <MenuTwoToneIcon  style={{ color: "#F5F5F5" }} onClick={showMenu}/>
                     </div>
@@ -37,7 +41,7 @@ function Navbar() {
                     </div>
                     </div>
                     <MobNav showMenu={showMenu} active={active}/>
-        </div>
+        </motion.div>
         );
     }
     

@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import {motion} from "framer-motion"
 
 function Resume() {
     const data=[
@@ -23,7 +24,13 @@ function Resume() {
     ]
 
     return (
-        <div className="bg-gradient-to-r from-[#222222] to-[#161616] overflow-x-hidden min-w-full max-w-max min-h-screen max-h-max ">
+        <motion.div className="bg-gradient-to-r from-[#222222] to-[#161616] overflow-x-hidden min-w-full max-w-max min-h-screen max-h-max "
+        
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}}>
+           
+        
             {/* Education */}
             <div className="bg-[#252525] w-full h-[200px] border-[#353535] border-2 ">
                 <div className="text-2xl text-[#F5F5F5] font-poppins md:text-5xl font-semibold p-20 ">Education & Experience</div>
@@ -140,7 +147,7 @@ function Resume() {
            
             </div>
          
-        </div>
+        </motion.div>
         );
     }
     

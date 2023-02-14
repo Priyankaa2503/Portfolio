@@ -5,11 +5,14 @@ import Resume from './Resume';
 import Projects from './Projects';
 import Contact from './Contact';
 import {AnimatePresence} from "framer-motion"
+
 export default function AnimatedRoutes() {
     const location = useLocation();
   return (
     <AnimatePresence>
+     
     <Routes location={location} key={location.pathname}>
+  
             <Route path = "/" element = {<Home/>}></Route>
             <Route path = "/aboutme" element = {<Home/>}></Route>
             <Route path = "/resume" element = {<Resume/>}></Route>

@@ -3,6 +3,7 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import PlaceIcon from '@mui/icons-material/Place';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import emailjs from '@emailjs/browser';
+import {motion} from "framer-motion"
 
 
 
@@ -22,9 +23,13 @@ function Contact()
         });
     };
     return(
-        <div
+        <motion.div
         className="bg-gradient-to-r from-[#222222] to-[#161616] min-w-full max-w-max min-h-screen max-h-max ">
-             <div className="bg-[#252525] w-full h-[200px] border-[#353535] border-2 ">
+             <div className="bg-[#252525] w-full h-[200px] border-[#353535] border-2 "
+             
+             initial={{opacity:0}}
+             animate={{opacity:1}}
+             exit={{opacity:0}}>
                 <div className="text-2xl text-[#F5F5F5] font-poppins md:text-5xl font-semibold p-20 ">Contact</div>
             </div>
            {/* maps */}
@@ -77,20 +82,9 @@ function Contact()
            </div>
         
      
-      </div>
+      </motion.div>
       
     );
 }
 export default Contact;
 
-{/* <form ref={form} onSubmit={sendEmail}>
-      <label className="mt-4 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[50px] border border-[#d5d5d5] rounded-md text-white py-2 pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Full Name</label>
-      <input type="text" name="user_name" />
-      <label className="mt-4 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[50px] border border-[#d5d5d5] rounded-md text-white py-2 pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Email</label>
-      <input type="email" name="user_email" />
-      <label className="mt-4 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[50px] border border-[#d5d5d5] rounded-md text-white py-2 pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Subject</label>
-      <input type="text" name="user_subject" />
-      <label className="mt-4 mb-6 placeholder:poppins placeholder:[#D5d5d5] required block bg-[#222222] w-[300px] h-[250px] border border-[#d5d5d5] rounded-md text-white pl-4 shadow-lg shadow-black focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm">Subject</label>
-      <textarea name="message" />
-     
-    </form> */}
