@@ -11,6 +11,8 @@ Dynamic routing to display individual pages for each section of your portfolio.
 <img width="1440" alt="Screenshot 2023-02-13 at 11 17 11 PM" src="https://user-images.githubusercontent.com/111295843/218535990-b0cff154-4128-42b1-aeae-1e92cf2b3c85.png">
 <img width="1440" alt="Screenshot 2023-02-13 at 11 17 36 PM" src="https://user-images.githubusercontent.com/111295843/218536017-fc1a7f03-3399-4896-aa4c-0f1449d2f186.png">
 <img width="1440" alt="Screenshot 2023-02-13 at 11 29 31 PM" src="https://user-images.githubusercontent.com/111295843/218536231-61b009ff-2b9b-43da-b11b-38343da9412a.png">
+<img width="335" alt="Screenshot 2023-02-18 at 1 36 48 PM" src="https://user-images.githubusercontent.com/111295843/219849838-8bb2e272-5ee7-4414-93e0-86f68deb216a.png">
+
 
 
 # Installation and Setup Instructions ⚙️
